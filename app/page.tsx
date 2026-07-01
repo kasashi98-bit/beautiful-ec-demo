@@ -49,7 +49,7 @@ export default function Home() {
     <main
       style={{
         minHeight: '100vh',
-        backgroundImage: "url('/999.png')",
+        backgroundImage: "url('/999.webP')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
@@ -356,14 +356,16 @@ export default function Home() {
 
   <div className="visual-slider">
     <img
-      src="/slide-1.png"
+      src="/slide-1.webP"
       alt="会員限定ビジュアル 1"
       style={{ animation: 'yukisakiSlideA 8s infinite' }}
     />
 
     <img
-      src="/slide-2.png"
+      src="/slide-2.webP"
       alt="会員限定ビジュアル 2"
+      loading="lazy"
+      decoding="async"
       style={{ animation: 'yukisakiSlideB 8s infinite' }}
     />
   </div>
@@ -451,7 +453,11 @@ export default function Home() {
                 </span>
               )}
 
-              <img src={product.image} alt={product.name} />
+              <img src={product.image} 
+              alt={product.name} 
+              loading="lazy"
+              decoding="async"
+              />
             </div>
 
             <div style={{ marginTop: '20px' }}>
