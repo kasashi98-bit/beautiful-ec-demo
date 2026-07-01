@@ -1,3 +1,4 @@
+import AddToCartButton from '@/components/AddToCartButton'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { products } from '@/lib/products'
@@ -49,9 +50,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
           </p>
 
           <div className="mt-10 flex gap-4">
-            <button className="rounded-full bg-[#1f1f1f] px-7 py-4 text-sm font-medium text-white">
-              カートに入れる
-            </button>
+            <AddToCartButton productId={product.id} soldOut={product.soldOut} />
 
             <Link
               href="/"

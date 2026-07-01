@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 'minimal-leather-wallet',
-    name: 'Minimal Leather Wallet',
+    name: 'パテックフィリップ',
     price: '¥124,800,000',
     image: '/aaa.png',
     category: 'Accessories',
@@ -13,7 +13,7 @@ export const products = [
   },
   {
     id: 'ceramic-coffee-mug',
-    name: 'Ceramic Coffee Mug',
+    name: 'ロレックス',
     price: '¥224,200,000',
     image: '/daiya.png',
     category: 'Lifestyle',
@@ -25,7 +25,7 @@ export const products = [
   },
   {
     id: 'organic-cotton-shirt',
-    name: 'Organic Cotton Shirt',
+    name: 'オーデマピゲ',
     price: '¥119,800,000',
     image: '/odema.png',
     category: 'Apparel',
@@ -35,7 +35,7 @@ export const products = [
   },
   {
     id: 'diamond-watch-black',
-    name: 'Diamond Watch Black',
+    name: 'ダイヤモンドウォッチ ブラック',
     price: '¥229,000,000',
     image: '/666.png',
     category: 'Watch',
@@ -45,7 +45,7 @@ export const products = [
   },
   {
     id: 'silver-diamond-watch',
-    name: 'Silver Diamond Watch',
+    name: 'ロレックスアイスブルー',
     price: '¥156,000,000',
     image: '/777.png',
     category: 'Watch',
@@ -55,7 +55,7 @@ export const products = [
   },
   {
     id: 'rose-gold-watch',
-    name: 'Rose Gold Watch',
+    name: 'ロレックス',
     price: '¥188,000,000',
     image: '/888.png',
     category: 'Watch',
@@ -72,4 +72,6 @@ export const products = [
     description: 'ロレックス限定モデル',
     detail: 'ラグジュアリーなひととき',
   },
-]
+] 
+
+
